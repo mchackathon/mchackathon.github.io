@@ -163,7 +163,7 @@
 		<img id = "prizes" src = "prizes.png">
 		<img id = "handouts" src = "handouts.png">
 		<img id = "sponsors" src = "sponsors.png">
-		<img id = "sponsor1" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
+		<img id = "sponsor1" src = "aops.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor2" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor3" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor4" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
@@ -318,7 +318,9 @@
 			{
 				window.open("https://www.instagram.com/mchackathon2023/", "_blank");
 			});
-			
+			document.getElementById("sponsor1").addEventListener("click", function(){
+				window.open("https://artofproblemsolving.com/", "_blank")
+			})
 			function animate()
 			{
 				var pageBottom = window.innerWidth * (1080 / 1920) + window.innerWidth * (2160 / 3840) * 1.325;
