@@ -164,7 +164,7 @@
 		<img id = "handouts" src = "handouts.png">
 		<img id = "sponsors" src = "sponsors.png">
 		<img id = "sponsor1" src = "aops4.png" onmouseover = "" style = "cursor: pointer;">
-		<img id = "sponsor2" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
+		<img id = "sponsor2" src = "leangap4.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor3" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor4" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
 		<img id = "sponsor5" src = "sponsor1.png" onmouseover = "" style = "cursor: pointer;">
@@ -321,6 +321,9 @@
 			document.getElementById("sponsor1").addEventListener("click", function(){
 				window.open("https://artofproblemsolving.com/", "_blank")
 			})
+			document.getElementById("sponsor2").addEventListener("click", function(){
+				window.open("https://www.leangap.org/", "_blank")
+			})
 			function animate()
 			{
 				var pageBottom = window.innerWidth * (1080 / 1920) + window.innerWidth * (2160 / 3840) * 1.325;
@@ -411,7 +414,7 @@
 				sponsor2.style.top = sponsor2Top + "px";
 				sponsor2.style.width = sponsorWidth + "px";
 				sponsor2.style.transform = "rotate(" + Math.sin(tick + Math.PI / 2) * 3 + "deg)";
-				sponsor2.style.opacity = 1 - Math.abs(((sponsor2Top + sponsorWidth * 0.25 - scrollYpos) - window.innerHeight / 2) / (400 * window.innerWidth / 1280));
+				sponsor2.style.opacity = 1
 				
 				sponsor3Left = window.innerWidth * 0.6 - sponsorWidth / 2 + Math.sin(tick * 0.5 + Math.PI / 4) * 10 * (window.innerWidth / 1280);
 				sponsor3Top = window.innerWidth * 0.945 - sponsorWidth / 2 + Math.cos(tick * 0.5) * 10 * (window.innerWidth / 1280);
