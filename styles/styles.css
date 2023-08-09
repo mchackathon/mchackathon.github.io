@@ -1,0 +1,138 @@
+body
+{
+    overflow-x: hidden;
+}
+#purplebackground
+{
+    position: absolute;
+    pointer-events: none;
+}
+#background
+{
+    position: absolute;
+    pointer-events: none;
+}
+#gradient
+{
+    position: absolute;
+    pointer-events: none;
+}
+#gradient2
+{
+    position: absolute;
+    opacity: 0.4;
+    pointer-events: none;
+}
+#logo
+{
+    position: absolute;
+    opacity: 1;
+    pointer-events: none;
+}
+#year
+{
+    position: absolute;
+    opacity: 0.25;
+    pointer-events: none;
+}
+#bottomtab
+{
+    position: absolute;
+    opacity: 0.5;
+    pointer-events: none;
+}
+#gmail
+{
+    position: absolute;
+    opacity: 0;
+}
+#discord
+{
+    position: absolute;
+    opacity: 0;
+}
+#instagram
+{
+    position: absolute;
+    opacity: 0;
+}
+#contactus
+{
+    position: absolute;
+}
+#overview
+{
+    position: absolute;
+    pointer-events: none;
+}
+#competition
+{
+    position: absolute;
+    pointer-events: none;
+}
+#schedule
+{
+    position: absolute;
+    pointer-events: none;
+}
+#whenwhere
+{
+    position: absolute;
+    pointer-events: none;
+}
+#prizes
+{
+    position: absolute;
+    pointer-events: none;
+}
+#handouts
+{
+    position: absolute;
+    pointer-events: none;
+}
+#sponsors
+{
+    position: absolute;
+    pointer-events: none;
+}
+#sponsor1
+{
+    position: absolute;
+}
+#sponsor2
+{
+    position: absolute;
+}
+#sponsor3
+{
+    position: absolute;
+}
+#sponsor4
+{
+    position: absolute;
+}
+#sponsor5
+{
+    position: absolute;
+}
+#sponsor6
+{
+    position: absolute;
+}
+#sponsor7
+{
+    position: absolute;
+}
+#sponsor8
+{
+    position: absolute;
+}
+#register
+{
+    position: absolute;
+}
+#sponsorpackage
+{
+    position: absolute;
+}
+
